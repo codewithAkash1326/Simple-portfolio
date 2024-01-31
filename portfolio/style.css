@@ -1,0 +1,390 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+.portfolio{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.navlist{
+    border-radius: 5px;
+     background:rgb(21, 21, 21);
+     /* background: #131212; */
+    display: flex;
+    gap: 3rem;
+    height: 15vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position:fixed;
+}
+
+.navlist li{
+    list-style: none;
+}
+.navlist li a:hover{
+    text-decoration-line: underline;
+    color:#5DB9EE;
+}
+.navlist li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: #ffff;
+}
+.left-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: #131212;
+    width: 100%;
+    padding-left: 3rem;
+}
+
+/* .left-container{
+    background: #131212;
+    width: 100%;
+    padding-left: 3rem;
+} */
+
+.right-container{
+     background:#3877ff;
+     width: 30%;
+}
+
+.icons .fa-brands {
+    color: #bbb;
+    font-size: 1.7rem;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+}
+.content{
+    margin-left: 4rem;
+}
+
+.content .intro{
+    font-size: 1.5rem;
+    color: #ffff;
+}
+ 
+.content h1{
+    font-size: 4rem;
+    color: #5DB9EE;
+}
+
+.content .intro span{
+    color:#5DB9EE;
+   
+}
+
+.content .detail{
+    font-size: 1.3rem;
+    color: #ffff;
+    max-width: 35rem;
+    margin: 1.1rem 0 3rem 0;
+    line-height: 1.8rem;
+}
+
+.content .btn-container button{
+  border: .1rem solid #5DB9EE;
+  font-size: 1.5rem;
+   padding: .8rem 1.3rem;
+   border-radius: .5rem;
+   cursor: pointer;
+   transition: .2s ease;
+}
+
+button:nth-child(1){
+    background: #5DB9EE;
+    color: #262525;
+}
+button:nth-child(2){
+    background: transparent;
+    color: #5DB9EE;
+    margin-left: 2.1rem;
+}
+button:nth-child(1):hover{
+    background: transparent;
+    color: #5DB9EE;
+}
+
+button:nth-child(2):hover{
+    background:#5DB9EE;
+    color: #262525;
+}
+
+.icons .fa-brands:hover{
+    cursor: pointer;
+    color: #5DB9EE;
+}
+
+.profile{
+    height: 10vh;
+    width: fit-content;
+}
+
+.profile .img{
+    height: 300px;
+    width: 200px;
+}
+
+.img{
+    height: 400px;
+    width: 400px;
+    margin-left: 50%;
+    border: 3px #000000 solid;
+    border-radius: 900px;
+     
+
+    
+}
+
+.footer{
+    background-image: url(images/pexels-daniel-putzer-633409.jpg);
+    width: 100%;
+    height: 100vh;
+}
+
+.footer .services{
+    align-items: center;
+    justify-content: center;
+    margin-left:35% ;
+}
+.services{
+     font-size: 3rem;
+    color: #ffff;
+    padding: 40px;
+    margin-bottom: 25px;
+}
+
+.about .s1{
+    padding-left: 30px;
+}
+.about .s1,.s2,.s3{
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 20px;
+    height: 300px;
+    width: 300px;
+    background-color: #282424a8;
+}
+
+.about{
+    
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+}
+
+.about .s1{
+    border-radius: 10px;
+    color: #ffff;
+}
+.about .s1:hover{
+    border-radius: 40px;
+    transition: .3s ease;
+    color: #262525;
+    cursor: pointer;
+    background: #5DB9EE;
+}
+
+.about .fa-solid{
+    padding-top: 20px;
+    font-size: 2rem;
+}
+.about .s1-title{
+    font-size: 2.5rem;
+    padding-top: 20px;
+}
+.about .s1-detail{
+    padding-top: 14px;
+    max-width: 15rem;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+
+
+.about .s2{
+    border-radius: 12px;
+    color: #ffff;
+}
+.about .s2:hover{
+    border-radius: 40px;
+    transition: .3s ease;
+    color: #262525;
+    cursor: pointer;
+    background: #5DB9EE;
+}
+
+.about .fas{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 2rem;
+}
+.about .s2-title{
+    padding-left: 25px;
+    font-size: 2.5rem;
+    padding-top: 20px;
+}
+.about .s2-detail{
+    padding-left: 25px;
+    padding-top: 14px;
+    max-width: 17rem;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.about .s3{
+    border-radius: 12px;
+    color: #ffff;
+}
+.about .s3:hover{
+    border-radius: 40px;
+    transition: .3s ease;
+    color: #262525;
+    cursor: pointer;
+    background: #5DB9EE;
+}
+
+.about .fab{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 2rem;
+}
+.about .s3-title{
+    padding-left: 25px;
+    font-size: 2.5rem;
+    padding-top: 20px;
+}
+.about .s3-detail{
+    padding-left: 25px;
+    padding-top: 14px;
+    max-width: 17rem;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.contact{
+         margin-top: 170px;
+        background-image: url(images/pexels-daniel-putzer-633409.jpg);
+        width: 100%;
+        height: 100vh;
+        display: flex;
+    
+    
+}
+
+/* .mes-heading{
+    padding: 20px;
+    margin: 50px;
+    align-items: center;
+    color: #ffff;
+} */
+
+.contact-detail{
+    /* padding-top: 20px; */
+    /* background-color: #262525; */
+    height: 100vh;
+    width: 40%;
+}
+.contact-heading{
+    font-size: 2.3rem;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+   color: #ffff;
+   margin-left:80px ;
+   padding-top: 100px;
+   padding-bottom: 40px;
+}
+
+ 
+
+.contact-detail p{
+    padding-left: 20px;
+    margin-left: 80px;
+    margin-bottom: 15px;
+    color: #ffff;
+
+}
+
+.contact-detail .email .phone{
+    margin-left: 30px;
+}
+.fa-brands {
+    margin-right: 10px;
+    color: #ffff;
+}
+
+.fa-solid{
+    margin-right: 13px;
+}
+
+
+.btn-cv:hover{
+    background: transparent;
+    color: #5DB9EE;
+}
+
+.btn-cv{
+    border: .1rem solid #6e97a8;
+    font-size: 1rem;
+    color: #ffff;
+    border-radius: .5rem;
+    cursor: pointer;
+    padding: 18px;
+    margin:20px 0 0 90px;
+    background:#5DB9EE;
+}
+
+.form-section{
+    /* background: #3877ff; */
+    width: 60%;
+    height: 100vh;
+}
+
+.form-detail form {
+    width: 100%;
+
+}
+ 
+form input, form textarea{
+    width: 90%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 25px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+.btn-submit:hover{
+    background: transparent;
+    color: #5DB9EE;
+}
+.btn-submit{
+    border: .1rem solid #5DB9EE;
+    background: #5DB9EE;
+    color:#fff;
+    font-size: 1.3rem;
+    border-radius: .5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 170px;
+     padding: 15px;
+     margin:20px 0 0 9px;
+     cursor: pointer;
+}
